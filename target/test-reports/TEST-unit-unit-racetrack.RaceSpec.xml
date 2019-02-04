@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="SADHANA" name="racetrack.RaceSpec" tests="1" time="1.242" timestamp="2019-01-21T09:51:45">
+  <properties />
+  <testcase classname="racetrack.RaceSpec" name="test something" time="1.206">
+    <failure message="Condition not satisfied:&#xa;&#xa;3.124 == race.inMiles()&#xa;      |  |    |&#xa;      |  |    3.10700&#xa;      |  null, (null&#xa;      false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+3.124 == race.inMiles()
+      |  |    |
+      |  |    3.10700
+      |  null, (null
+      false
+
+	at racetrack.RaceSpec.test something(RaceSpec.groovy:22)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from test something--
+]]></system-out>
+  <system-err><![CDATA[--Output from test something--
+]]></system-err>
+</testsuite>
